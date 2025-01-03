@@ -7,14 +7,16 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <header>
-      <div class="container even-columns">
-        <h1>LADO A</h1>
-        <h1>LADO B</h1>
-        <h1>LADO C</h1>
-        <h1>LADO D</h1>
-        <h1>LADO E</h1>
-      </div>
-    </header>
+    <div class="flex gap-1">
+      <a href="#" class="btn btn-sm">Label</a>
+      <a href="#" class="btn btn-md">Label</a>
+      <button class="btn btn-lg">Label</button>
+    </div>
+
+    <div class="flex gap-1">
+      <a aria-label="Label" href="#" class="btn btn-sm"></a>
+      <a aria-label="Label" href="#" class="btn btn-md"></a>
+      <button aria-label="Label" class="btn btn-lg"></button>
+    </div>
   </body>
 </html>
