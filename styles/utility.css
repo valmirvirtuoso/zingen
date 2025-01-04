@@ -27,8 +27,16 @@
   display: flex;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
@@ -42,7 +50,6 @@
     100% - var(--px-lg) * 2
   ); /* ? a largura será sempre o menor valor, ou 375px ou a largura maxima - os paddings laterais */
   margin-inline: auto;
-  border: solid red;
 }
 
 @media (width >= 80rem) {
