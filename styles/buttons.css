@@ -2,6 +2,7 @@
   --btn-bg-color: var(--text-color-primary);
   --btn-color: var(--bg-color);
   border: 0;
+  background-color: transparent;
 
   display: flex;
   align-items: center;
@@ -51,14 +52,13 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 1.5px;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
   &::after {
     content: attr(aria-label);
     background: var(--btn-bg-color);
-    /* ! Só funciona em navegadores com suporte ao bg-clip */
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -67,7 +67,7 @@
   }
 }
 
-@media (width >= 80rem) {
+@media (width >= 80em) {
   .btn-sm {
     padding: 0.75rem 1.5rem;
     font-size: var(--fs-base);
