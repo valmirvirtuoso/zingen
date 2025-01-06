@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="Logo - Rocketseat" src=".github/logo-rocketseat.png" width="200px" />
+  <img alt="Logo - Rocketseat" src="https://app.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Frocketseat-logo.svg&w=256&q=75" width="200px" />
 </p>
 
 <p align="center">
@@ -19,7 +19,7 @@
 <br>
 
 <p align="center">
-  <img alt="Preview do projeto desenvolvido." src=".github/preview.png" width="100%">
+  <img alt="Preview do projeto desenvolvido." src="assets/exemplo.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
